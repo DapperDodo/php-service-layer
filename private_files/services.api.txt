@@ -1,0 +1,9 @@
+frontcontroller/metaservice
+		0000 : service access denied / killswitch on
+		0001 : API unknown
+		0002 : API function unknown
+common
+		0003 : API function not implemented yet
+		9997 : Could not connect to database
+		9998 : Database/PDO error
+		9999 : Technical error

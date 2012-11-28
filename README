@@ -1,0 +1,14 @@
+This is an application layer that ties different datasources together.
+
+features
+- caching
+- JSON output
+- database layer (where db specific code lives)
+- processing layer (for processing individual fields)
+- service layer (for performing joins)
+- simple throttling and killswitches
+- modular and layered architecture
+
+known issues:
+
+1: The caching system is imperfect: The memcache pool is polled every request.
