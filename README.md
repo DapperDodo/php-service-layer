@@ -1,6 +1,9 @@
 # PHP Service Layer
 
-This is an application layer that ties different datasources together.
+This is an application layer toolkit that ties different datasources together.
+This toolkit has been used in production, on a set of high traffic game portals.
+It has been my first attempt at creating a Microservices toolkit, before the term Microservices was coined.
+Since then I have moved away from PHP and embraced Go (Golang) as my language of choice for implementing Microservices.
 
 ### features
 
@@ -12,13 +15,7 @@ This is an application layer that ties different datasources together.
  - simple throttling and killswitches
  - modular and layered architecture
 
-### known issues:
+### known issues
 
-1: The caching system is imperfect: The memcache pool is polled every request.
+ 1: The caching system is imperfect: The memcache pool is polled every request.
 
-### disclaimer
-
-This project has been used in production, on a set of high traffic game portals.
-It has been my first attempt at creating a Microservices toolkit, before the term Microservices was coined.
-
-Since then I have moved away from PHP and embraced Go (Golang) as my language of choice for implementing Microservices.
